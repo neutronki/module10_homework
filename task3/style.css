@@ -1,0 +1,60 @@
+.container {
+	width: 500px;
+    height: auto;
+    padding: 10px;
+    box-shadow: 8px 8px 15px -2px rgb(0 0 0 / 40%);
+    margin: 20px auto;
+}
+
+.form_chat {
+	display: flex;
+	justify-content: space-between;
+}
+
+.form_input {
+	border: 3px solid #bad7ec;
+	padding: 7px 5px;
+	width: 80%;
+	margin-right: 10px;
+	outline: none;
+	
+}
+.form_input:focus {
+	border: 3px solid #5daee9;
+}
+
+.form_btn {
+	border: none;
+	background-color: #bad7ec;
+	padding: 0px 5px;
+	width: 30%;
+	cursor: pointer; 
+}
+.form_btn:hover {
+	background-color: #5daee9;
+}
+.btn_geo {
+	margin-left: 6px;
+}
+
+.chat_container {
+	overflow: auto;
+	border: 3px solid #bad7ec;
+	padding: 5px;
+	margin-top: 12px;
+	height: 400px;
+}
+
+.messages_container {
+	display: flex;
+	flex-flow: column wrap;
+
+}
+
+.message {
+	border: 3px solid #bad7ec;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 7px;
+	align-self: flex-end;
+}
